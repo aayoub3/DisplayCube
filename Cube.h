@@ -15,7 +15,7 @@ private:
 	int spacesBetween;
 
 public:
-	Cube();
+	Cube(); //constructor to set intial values
 	int getSide(); //getter
 	void setSide(int sidePar); //setter
 	void drawFirstLine(int userInputPar);
